@@ -53,7 +53,7 @@ PKG_CMAKE_OPTS_TARGET+=" -DARM64=ON"
 else
 PKG_CMAKE_OPTS_TARGET+=" -DARMV7=ON"
 fi
-  
+
 }
 
 pre_make_target() {
